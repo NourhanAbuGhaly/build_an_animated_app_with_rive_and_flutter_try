@@ -55,6 +55,8 @@ class _EntrypointState extends State<Entrypoint> {
                             SizedBox(
                               width: 36,
                               height: 36,
+                              /// we can each of them but how
+                              /// how to play the animation
                               child: Opacity(
                                 opacity: bottomNav[index] == selectedBottomNav
                                     ? 1

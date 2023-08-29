@@ -1,11 +1,9 @@
 import 'dart:ui';
 
-
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/AnimatedBtn.dart';
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/custom_sign_in_dailog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:rive/rive.dart';
 
 class OnBoardingScreen extends StatefulWidget {
@@ -21,7 +19,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   @override
   void initState() {
-    _btnController = OneShotAnimation("active",autoplay: false);
+    _btnController = OneShotAnimation("active", autoplay: false);
     // TODO: implement initState
     super.initState();
   }
@@ -120,7 +118,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       ),
                     ],
                   ),
-                )),
+                ),
+            ),
           )
         ],
       ),

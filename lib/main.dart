@@ -1,5 +1,5 @@
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/home_screen.dart';
-import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/onBodling/on_boarding_screen.dart';
+import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/onBoarding/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           fontFamily: "Intel",
-          inputDecorationTheme: InputDecorationTheme(
+          inputDecorationTheme:const InputDecorationTheme(
             fillColor: Colors.white,
             filled: true,
             errorStyle: TextStyle(height: 0),
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ,
-      home: HomeScreen(),
+      home: OnBoardingScreen(),
     );
   }
 }
