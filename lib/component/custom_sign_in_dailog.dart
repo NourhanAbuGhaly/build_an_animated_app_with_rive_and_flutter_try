@@ -1,4 +1,4 @@
-import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/sign_in_form.dart';
+import 'package:build_an_animated_app_with_rive_and_flutter_try/component/sign_in_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

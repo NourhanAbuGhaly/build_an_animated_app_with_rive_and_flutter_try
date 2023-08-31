@@ -1,3 +1,4 @@
+import 'package:build_an_animated_app_with_rive_and_flutter_try/component/side_menu.dart';
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/home_screen.dart';
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/onBoarding/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ,
-      home: OnBoardingScreen(),
+      home: SideMenu(),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/AnimatedBtn.dart';
-import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/custom_sign_in_dailog.dart';
+import 'package:build_an_animated_app_with_rive_and_flutter_try/component/AnimatedBtn.dart';
+import 'package:build_an_animated_app_with_rive_and_flutter_try/component/custom_sign_in_dailog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';

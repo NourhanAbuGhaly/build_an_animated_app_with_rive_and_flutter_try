@@ -1,4 +1,3 @@
-
 import 'package:rive/rive.dart';
 
 class RiveAsset {
@@ -7,9 +6,9 @@ class RiveAsset {
 
   RiveAsset(
       {required this.artboard,
-        required this.stateMachine,
-        required this.title,
-        required this.src});
+      required this.stateMachine,
+      required this.title,
+      required this.src});
 
   set setInput(SMIBool state) {
     input = state;
@@ -47,4 +46,23 @@ List<RiveAsset> bottomNav = [
     title: "Profile",
     src: "assets/RiveAssets/icons.riv",
   ),
+];
+
+List<RiveAsset> sideMenus = [
+  RiveAsset(
+      artboard: "HOME",
+      stateMachine: "HOME_interactivity",
+      title: "Home",
+      src: "assets/RiveAssets/icons.riv"),
+  RiveAsset(
+      artboard: "SEARCH",
+      stateMachine: "SEARCH_interactivity",
+      title: "search",
+      src: "assets/RiveAssets/icons.riv"),
+  RiveAsset(
+      artboard: "LIKE/STAR",
+      stateMachine: "LIKE_interactivity",
+      title: "favourites",
+      src: "assets/RiveAssets/icons.riv"),
+
 ];

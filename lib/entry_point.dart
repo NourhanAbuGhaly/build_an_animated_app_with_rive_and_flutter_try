@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:build_an_animated_app_with_rive_and_flutter_try/Utils/rive_util.dart';
 import 'package:build_an_animated_app_with_rive_and_flutter_try/models/rive_assets.dart';
-import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/component/bottom_animated_bar.dart';
+import 'package:build_an_animated_app_with_rive_and_flutter_try/component/bottom_animated_bar.dart';
 import 'package:build_an_animated_app_with_rive_and_flutter_try/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
